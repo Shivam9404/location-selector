@@ -1,0 +1,35 @@
+.city-selector {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    width: 200px;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.highlight {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fade {
+    color: #666;
+}
