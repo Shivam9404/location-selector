@@ -89,7 +89,7 @@ const CitySelector = () => {
 
             {selectedCity && (
                 <h2>
-                    You Selected <span className={styles.highlight}>{selectedCity}</span>,
+                    You selected <span className={styles.highlight}>{selectedCity}</span>,
                     <span className={styles.fade}> {selectedState}, {selectedCountry}</span>
                 </h2>
             )}
